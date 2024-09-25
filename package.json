@@ -1,0 +1,40 @@
+{
+  "name": "mkk-frontend-developer-story",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A personal blog for frontend developer stories",
+  "keywords": ["frontend", "developer", "blog", "react", "next.js", "typescript", "javascript"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkk00/mkk00.github.io"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "14.2.13",
+    "react": "^18",
+    "react-dom": "^18",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "postcss": "^8",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.4"
+  }
+}
