@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { pretendard } from '@/styles/fonts'
 
 import '../styles/globals.css'
 
@@ -21,7 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body className={`${pretendard.variable} font-pretendard`}>
+        {children}
+      </body>
     </html>
   )
 }
